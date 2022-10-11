@@ -16,8 +16,8 @@ jobs:
   query:
     runs-on: ubuntu-latest
     outputs:
-      linux: ${{rk3588}}
-      u-boot: ${{rk3588}}
+      linux: ${rk3588}
+      u-boot: ${rk3588}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
