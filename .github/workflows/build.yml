@@ -16,8 +16,8 @@ jobs:
   query:
     runs-on: ubuntu-latest
     outputs:
-      linux: ${{ steps.query.outputs.linux }}
-      u-boot: ${{ steps.query.outputs.u-boot }}
+      linux: rk3588
+      u-boot: rk3588
     steps:
       - name: Checkout
         uses: actions/checkout@v3
